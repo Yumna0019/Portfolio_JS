@@ -5,11 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="icon.png" type="image/png">
 </head>
 <body>
-    <header class="header"></header>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#home"><i class="material-icons">home</i> Home</a></li>
+                    <li><a href="#about"><i class="material-icons">person</i> About</a></li>
+                    <li><a href="#projects"><i class="material-icons">code</i> Projects</a></li>
+                    <li><a href="#contact"><i class="material-icons">email</i> Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-text">
+                <h1>Hi, I'm <span id="dynamic-name"></span></h1>        
+            </div>
+        </div>
+    </header>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="main.js"></script>
+
 </body>
 </html>
