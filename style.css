@@ -6,7 +6,6 @@
 }
 
 body {
-    /* background: #545455; */
     background: #080808;
     color: #ffff;
 }
@@ -15,9 +14,8 @@ body {
     width: 100%;
     height: 100vh;
     background: #545455;
-    /* background-size: cover;
-    background-position: center; */
 }
+
 
 /* --------          header            -------- */
 .container {
@@ -79,29 +77,60 @@ nav a {
     align-items: center;
 }
 
+*Parent Container {
+.homepage-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}}
+
+.homepage-image {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 30px;
+}
+
+.homepage-image img {
+    width: 40%;
+    height: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.144); 
+}
+
 .header-text {
-    text-align: center;
+    text-align: left;
     margin-left: 5px;
-    margin-top: 14rem;
-    font-size: 30px
+    margin-top: -17rem;
+    font-size: 30px;
+}
+
+.header-text h4 {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: -6px;
+    margin-bottom: 10px;
 }
 
 .header-text h1 {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 60px;
     text-align: left;
 }
 
 .header-text h1 span {
     color: #3E0A1F;
-}
+} 
+
+
 
 /* --------          About            -------- */
 
 #about {
-    padding: 110px 0;
+    padding: 30px 0 0;
     color: #e9e3e3;
-    /* color: #ababab; */
 }
 
 .row {
@@ -115,8 +144,8 @@ nav a {
 }
 
 .about-col-1 img {
-    height: 100%;
-    width: 70%;
+    height: 70vh;
+    width: 80%;
     border-radius: 15px;
     margin-left: 80px;
 }
@@ -128,7 +157,6 @@ nav a {
 .sub-title-h1 {
     font-size: 50px;
     font-weight: 800;
-    /* color: #3E0A1F; */
     color: #740b35;
 }
 
@@ -154,7 +182,6 @@ nav a {
 }
 
 .tab-links i {
-    /* color: #3E0A1F; */
     color: #740b35;
     margin-right: 7px;
 }
@@ -163,7 +190,6 @@ nav a {
     content: " ";
     width: 0;
     height: 3px;
-    /* background: #3E0A1F; */
     background: #740b35;
     position: absolute;
     left: 0;
@@ -193,7 +219,6 @@ nav a {
 }
 
 .tab-contents span {
-    /* color: #19191b; */
     color: #9e4c50;
     font-weight: 500;
     font-size: 18px;
@@ -207,7 +232,6 @@ nav a {
 }
 
 .tab-contents .grade {
-    /* color: #241919; */
     color: #634545;
     font-size: 15px;
 }
@@ -230,7 +254,6 @@ nav a {
 
 #projects {
     padding: 50px 80px;
-    /* color: #e9e3e3; */
     background-color: #545455;
 }
 
@@ -263,7 +286,6 @@ nav a {
 .layer {
     width: 100%;
     height: 0;
-    /* background: linear-gradient(rgba(0,0,0,0.6), #3E0A1F); */
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -341,10 +363,6 @@ nav a {
 
 
 /* --------          Contact            -------- */
-
-/* #contact {
-    padding: 80px 30px;
-} */
 
 .row {
     display: flex;
