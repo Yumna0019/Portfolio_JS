@@ -6,10 +6,8 @@ function opentab(tabname) {
         tablink.classList.remove("active-link");
     }
     for(tabcontent of tabcontents){
-        // tabcontent.classList.remove("active-tab");
         tabcontent.style.display = "none";
     }
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).style.display = "block";
-    // document.getElementById(tabname).classList.add("active-tab");
 }
