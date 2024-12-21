@@ -124,6 +124,18 @@ nav a {
     color: #3E0A1F;
 } 
 
+.header-text h6 {
+    margin-top: 10px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.header-text h6 span {
+    color: #3E0A1F;
+    font-weight: 800;
+} 
+
 
 /* --------          About            -------- */
 
@@ -514,7 +526,7 @@ nav .fas {
     .header-text {
         text-align: left;
         margin-left: 5px;
-        margin-top: -150%;
+        margin-top: -170%;
         font-size: 30px;
     }
     .header-text h4 {
