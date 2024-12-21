@@ -18,7 +18,8 @@ body {
     /* background-size: cover;
     background-position: center; */
 }
- /* --------          header            -------- */
+
+/* --------          header            -------- */
 .container {
     padding: 10px 9%;
 }
@@ -53,7 +54,7 @@ nav ul li a::after {
     content: " ";
     width: 0;
     height: 3px;
-    background: #3E0A1F ;
+    background: #3E0A1F;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -65,7 +66,7 @@ nav ul li a:hover::after {
 }
 
 i {
-    color: #3E0A1F ; 
+    color: #3E0A1F;
     margin-right: 8px;
     font-size: 20px;
 }
@@ -95,10 +96,10 @@ nav a {
     color: #3E0A1F;
 }
 
- /* --------          About            -------- */
+/* --------          About            -------- */
 
 #about {
-    padding: 80px 0;
+    padding: 110px 0;
     color: #e9e3e3;
     /* color: #ababab; */
 }
@@ -148,14 +149,14 @@ nav a {
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    display: inline-flex; 
+    display: inline-flex;
     align-items: center;
 }
 
-.tab-links i { 
+.tab-links i {
     /* color: #3E0A1F; */
     color: #740b35;
-    margin-right: 7px; 
+    margin-right: 7px;
 }
 
 .tab-links::after {
@@ -188,14 +189,14 @@ nav a {
 .tab-contents li {
     line-height: 1.2;
     color: #eeeaea;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .tab-contents span {
     /* color: #19191b; */
     color: #9e4c50;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .tab-contents .date {
@@ -228,7 +229,7 @@ nav a {
 /* --------          Project            -------- */
 
 #projects {
-    padding: 50px 80PX;
+    padding: 50px 80px;
     /* color: #e9e3e3; */
     background-color: #545455;
 }
@@ -327,14 +328,14 @@ nav a {
 }
 
 .layer.weather-app i {
-    color:  #4c5b85;
+    color: #4c5b85;
 }
 
 .project:hover img {
     transform: scale(1.1);
 }
 
-.project:hover  .layer {
+.project:hover .layer {
     height: 100%;
 }
 
@@ -342,40 +343,59 @@ nav a {
 /* --------          Contact            -------- */
 
 /* #contact {
-    padding: 50px 0px;
+    padding: 80px 30px;
+} */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 40px;
+    padding: 90px 30px;
 }
 
 .contact-left {
-    flex-direction: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 100px 0 60px;
 }
 
 .contact-right {
+    padding: 10px 0;
     flex-direction: 60%;
 }
 
 .contact-left p {
+    display: inline-flex;
+    align-items: center;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.sub-title-cont{
+.sub-title-cont {
+    display: inline-block;
+    white-space: nowrap;
+    text-align: left;
+    margin-bottom: 30px;
     font-size: 50px;
     font-weight: 800;
     color: #740b35;
 }
 
-.contact-left i {
-    color: #740b35;                                           
-    margin-right: 15px; 
+.contact-left p i {
+    color: #740b35;
+    margin-right: 15px;
     font-size: 25px;
 }
 
-.social-icon {                                         
-    margin-top: 60px; 
+.social-icon {
+    margin-top: 30px;
 }
 
 .social-icon a i {
     text-decoration: none;
     font-size: 30px;
+    margin-top: 20px;
     margin-right: 15px;
     color: #e9e9ec;
     display: inline-block;
@@ -396,25 +416,28 @@ nav a {
     text-decoration: none;
     color: #e9e9ec;
     background: #740b35;
+    outline: none;
+    border: 0;
 }
 
 .btn.btn2 {
-    display: inline-block;
-    background: #740b35;
+    margin: 5px auto;
 }
 
 .contact-right form {
-    width: 100%;
+    margin-top: 5px;
+    width: 90%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
     background: #262626;
     padding: 15px;
-    margin: 15px 0;
+    margin: 12px 0;
     color: #e9e9ec;
     font-size: 18px;
     border-radius: 6px;
-} */
+}
