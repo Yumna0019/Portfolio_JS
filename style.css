@@ -378,9 +378,12 @@ nav a {
 
 
 /* --------          Contact            -------- */
-
+/* padding-top
+    padding-right
+    padding-bottom
+    padding-left */
 #contact {
-    padding: 60px 0px;
+    padding: 60px 0 15px 0;
 }
 
 .row {
@@ -628,13 +631,13 @@ nav .fas {
     }
 
     /*---------------- Contact  --------------*/
-
+    
     .sub-title-cont {
         font-size: 35px;
     }
 
     .contact-left {
-        padding: 0 0 0 10;
+        padding: 0 0 0 10px;
     }
 
     form {
