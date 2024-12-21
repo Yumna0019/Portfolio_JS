@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #080808;
     color: #ffff;
@@ -484,6 +488,12 @@ form .btn2 {
 
 form {
     margin-bottom: -15px;
+}
+
+#msg {
+    color: #61b752;
+    margin-top: 1.2rem;
+    display: block;
 }
 
 nav .fas {
